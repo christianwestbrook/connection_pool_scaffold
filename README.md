@@ -26,6 +26,13 @@ to change it as you see fit.
     mvn test-compile # compile test code in src/test/java
     mvn test         # run tests in src/test/java for files named Test*.java
 
+## Opportunities to impress
+
+Our engineers would like to see you choose at least one advanced feature to implement in your pool.  Some possible options include:
+
+* Implement the above requirements without using the "synchronized" keyword.
+* Actively close and reap connections that have been leased for some configurable amount of time.
+* Periodically checking that available connections are still useable and removing those that are not.
 
 [maven]:http://maven.apache.org/
 
